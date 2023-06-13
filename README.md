@@ -5,6 +5,19 @@ Just site with text annimation that looks like from "Star Wars"
 
 ![Видео без названия — сделано в Clipchamp (2)](https://github.com/r3ynD/Star-Wars-Style-Site/assets/127958857/5cedf885-5c2b-48de-83fa-68add95fb415)
 
+CSS animation works by defining keyframes that specify how an element should appear at specific times during the animation. In the example provided, the `@keyframes crawl` rule is defined with two keyframes - one at 0% and one at 100%. Inside each keyframe block, you can define the CSS properties that should be applied to the element at that point in the animation.
+
+The `crawl` animation specifies the following properties:
+
+![image](https://github.com/r3ynD/Star-Wars-Style-Site/assets/127958857/8bf65dd0-5b49-4a80-8431-206f788a94da)
+
+- `top`: This property controls the vertical position of the element. At the start of the animation (0%), the element is positioned at the top of the page (top: 0), and by the end of the animation (100%), it has moved up 6000 pixels (top: -6000px).
+
+- `transform`: This property allows you to apply various types of transformations to an element, such as rotating, scaling, or translating it. In this case, the transform property is used to rotate the element around the X-axis by a certain degree, as well as translate it along the Z-axis by a certain distance. By the end of the animation, the element is rotated slightly more and translated much further than at the beginning, creating a crawling effect.
+
+- `-webkit-transform`, `-moz-transform`, `-ms-transform`, and `-o-transform`: These vendor-prefixed versions of the transform property are included for cross-browser compatibility, as some older browsers require them to apply CSS animations correctly.
+
+By changing the values of these properties across the keyframes, you can create many different types of animations. Other properties that can be animated using CSS include opacity, color, width, height, and background, among others.
 
 <h4>To change annimation time you need change these values in "style.css" file:</h4>
 
