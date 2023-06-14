@@ -1,10 +1,19 @@
 # Star-Wars-Style-Site
 Just site with text annimation that looks like from "Star Wars"
 
-<h3>Annimation demonstration (8 sec animation long):</h3>
+<h2>Annimation demonstration (8 sec animation long):</h2>
 
 ![Видео без названия — сделано в Clipchamp (2)](https://github.com/r3ynD/Star-Wars-Style-Site/assets/127958857/5cedf885-5c2b-48de-83fa-68add95fb415)
 
+<h2>Background Style:</h2>
+
+![image](https://github.com/r3ynD/Star-Wars-Style-Site/assets/127958857/c32a64f6-5256-4bf5-bd9b-b294661d0bfa)
+
+<h2>Text Style:</h2>
+
+![image](https://github.com/r3ynD/Star-Wars-Style-Site/assets/127958857/cb089296-4791-484e-ba41-f94f875a29dc)
+
+<h2>Annimation:</h2>
 CSS animation works by defining keyframes that specify how an element should appear at specific times during the animation. In the example provided, the `@keyframes crawl` rule is defined with two keyframes - one at 0% and one at 100%. Inside each keyframe block, you can define the CSS properties that should be applied to the element at that point in the animation.
 
 The `crawl` animation specifies the following properties:
